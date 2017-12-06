@@ -1,4 +1,4 @@
-Usage of Git LFS on GitHub, with a GitLab non-github LFS backend
+# Example of Git LFS on GitHub, with a GitLab LFS backend
 
 ## Setup git lfs globally
 
