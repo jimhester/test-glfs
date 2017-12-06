@@ -8,7 +8,7 @@ Follow the directions at https://git-lfs.github.com/, should simply be running
 ## New repository setup
 
 1. Add regular files, git lfs tracked files as usual.
-1. Add an `.lsconfig` entry for the gitlab lfs url. Replace `user` and `repo` with your values respectively.
+1. Add an `.lfsconfig` entry for the gitlab lfs url. Replace `user` and `repo` with your values respectively.
    `git config -f .lfsconfig lfs.url https://gitlab.com/user/repo/info/lfs`
 1. Create a new [GitLab project](https://gitlab.com/projects/new)
 1. Add the GitLab project as a gitlab remote
