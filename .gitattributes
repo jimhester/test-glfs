@@ -1,1 +1,2 @@
 ropensci.png filter=lfs diff=lfs merge=lfs -text
+ropensci2.png filter=lfs diff=lfs merge=lfs -text
