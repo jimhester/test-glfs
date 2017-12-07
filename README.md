@@ -1,4 +1,9 @@
 # Example of Git LFS on GitHub, with a GitLab LFS backend
+GitHub's implementation of [git lfs](https://git-lfs.github.com/) is unfortunately hampered by a [few major problems](https://medium.com/@megastep/github-s-large-file-storage-is-no-panacea-for-open-source-quite-the-opposite-12c0e16a9a91). The pricing model makes it challenging to use for popular open source projects, and as of 2015 it did not work with public forks of repositories. [GitLab](http://gitlab.com/) also provides an implementation of git lfs and they also provide as far as I can tell free hosting of files.
+
+This repository demonstrates using GitLab to host your git lfs files, while continuing to push commits to GitHub as normal, with an option to mirror the repository on GitLab as well.
+
+The key part to getting this working is when pushing commits to GitHub you will be prompted for a username and password when the lfs files are pushed. This will be crendentials for your **Gitlab** account, even if you are pushing to the GitHub remote.
 
 ## Setup git lfs globally
 
